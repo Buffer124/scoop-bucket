@@ -6,11 +6,11 @@
     "architecture": {
         "32bit": {
             "url": "https://github.com/Buffer124/WinNetManager/releases/download/v1.0.0/WinNetManager.exe",
-            "hash": "0A5A74E2AEF7A982674D2F44FEFFF1F93D92650CC9D5D242A1EC4E6F2457795"
+            "hash": "0a5a74e2aef7a982674d2f44fefff1f93d92650cc9d5d242a1ec4e6f2457795"
         },
         "64bit": {
             "url": "https://github.com/Buffer124/WinNetManager/releases/download/v1.0.0/WinNetManager.exe",
-            "hash": "0A5A74E2AEF7A982674D2F44FEFFF1F93D92650CC9D5D242A1EC4E6F2457795"
+            "hash": "0a5a74e2aef7a982674d2f44fefff1f93d92650cc9d5d242a1ec4e6f2457795"
         }
     },
     "bin": "WinNetManager.exe",
