@@ -1,0 +1,34 @@
+{
+    "version": "1.0.0",
+    "description": "Lightweight Win32 native IP and DNS management utility.",
+    "homepage": "https://github.com/Buffer124/WinNetManager",
+    "license": "MIT",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/Buffer124/WinNetManager/releases/download/v1.0.0/WinNetManager.exe",
+            "hash": "0A5A74E2AEF7A982674D2F44FEFFF1F93D92650CC9D5D242A1EC4E6F2457795"
+        },
+        "64bit": {
+            "url": "https://github.com/Buffer124/WinNetManager/releases/download/v1.0.0/WinNetManager.exe",
+            "hash": "0A5A74E2AEF7A982674D2F44FEFFF1F93D92650CC9D5D242A1EC4E6F2457795"
+        }
+    },
+    "bin": "WinNetManager.exe",
+    "shortcuts": [
+        [
+            "WinNetManager.exe",
+            "Windows Network Manager"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/Buffer124/WinNetManager/releases/download/v$version/WinNetManager.exe"
+            },
+            "64bit": {
+                "url": "https://github.com/Buffer124/WinNetManager/releases/download/v$version/WinNetManager.exe"
+            }
+        }
+    }
+}
