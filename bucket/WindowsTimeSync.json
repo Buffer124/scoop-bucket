@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "description": "Windows Time Synchronization Utility.",
+    "homepage": "https://github.com/Buffer124/WindowsTimeSync",
+    "license": "MIT",
+    "url": "https://github.com/Buffer124/WindowsTimeSync/releases/download/v2.0.0/WindowsTimeSync.exe",
+    "hash": "ced185532a0aa32ff1323013dfd84c7f8d8ed086ec1c088b51f9290ebc36ca8e",
+    "bin": "WindowsTimeSync.exe",
+    "shortcuts": [
+        [
+            "WindowsTimeSync.exe",
+            "Windows Time Sync"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Buffer124/WindowsTimeSync/releases/download/v$version/WindowsTimeSync.exe"
+    }
+}
